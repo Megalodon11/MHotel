@@ -1,0 +1,12 @@
+import tkinter as tk
+
+root = tk.Tk()
+
+backround_image=tk.PhotoImage(file='C:\Users\PC_08\3D Objects\Python\cancun.jpg')
+backround_label=tk.Label(root,image=backround_image)
+backround_label.place(relwidth=1, relheight=1)
+
+canvas =tk.Canvas(root, height =800, width = 800)
+canvas.pack()
+
+root.mainloop()
